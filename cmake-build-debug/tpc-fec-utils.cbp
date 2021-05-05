@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tpc-fec-utils"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\contrib\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\Boost-1.74.0\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.74.0\;CMake Files\src\;CMake Files\script\;CMake Files\config\;CMake Files\doc\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="updateGitInfo">
+				<Option working_dir="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 updateGitInfo"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fec">
+				<Option output="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/src/libfec.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug"/>
+					<Add directory="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/submodules/gbt-hdlc/src"/>
+					<Add directory="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/10.2.0/lib/gcc/10/gcc/x86_64-apple-darwin19/10.2.0/../../../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/10.2.0/lib/gcc/10/gcc/x86_64-apple-darwin19/10.2.0/../../../../../../include/c++/10.2.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc/10.2.0/lib/gcc/10/gcc/x86_64-apple-darwin19/10.2.0/../../../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/10.2.0/lib/gcc/10/gcc/x86_64-apple-darwin19/10.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/10.2.0/lib/gcc/10/gcc/x86_64-apple-darwin19/10.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 fec"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fec/fast">
+				<Option output="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/src/libfec.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug"/>
+					<Add directory="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/submodules/gbt-hdlc/src"/>
+					<Add directory="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/10.2.0/lib/gcc/10/gcc/x86_64-apple-darwin19/10.2.0/../../../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/10.2.0/lib/gcc/10/gcc/x86_64-apple-darwin19/10.2.0/../../../../../../include/c++/10.2.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc/10.2.0/lib/gcc/10/gcc/x86_64-apple-darwin19/10.2.0/../../../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/10.2.0/lib/gcc/10/gcc/x86_64-apple-darwin19/10.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/10.2.0/lib/gcc/10/gcc/x86_64-apple-darwin19/10.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 fec/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sampa_raw_data_decoder">
+				<Option output="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/src/sampa_raw_data_decoder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug"/>
+					<Add directory="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/submodules/gbt-hdlc/src"/>
+					<Add directory="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/10.2.0/lib/gcc/10/gcc/x86_64-apple-darwin19/10.2.0/../../../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/10.2.0/lib/gcc/10/gcc/x86_64-apple-darwin19/10.2.0/../../../../../../include/c++/10.2.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc/10.2.0/lib/gcc/10/gcc/x86_64-apple-darwin19/10.2.0/../../../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/10.2.0/lib/gcc/10/gcc/x86_64-apple-darwin19/10.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/10.2.0/lib/gcc/10/gcc/x86_64-apple-darwin19/10.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 sampa_raw_data_decoder"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sampa_raw_data_decoder/fast">
+				<Option output="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/src/sampa_raw_data_decoder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug"/>
+					<Add directory="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/submodules/gbt-hdlc/src"/>
+					<Add directory="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc/10.2.0/lib/gcc/10/gcc/x86_64-apple-darwin19/10.2.0/../../../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/10.2.0/lib/gcc/10/gcc/x86_64-apple-darwin19/10.2.0/../../../../../../include/c++/10.2.0/x86_64-apple-darwin19"/>
+					<Add directory="/usr/local/Cellar/gcc/10.2.0/lib/gcc/10/gcc/x86_64-apple-darwin19/10.2.0/../../../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/10.2.0/lib/gcc/10/gcc/x86_64-apple-darwin19/10.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/10.2.0/lib/gcc/10/gcc/x86_64-apple-darwin19/10.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 sampa_raw_data_decoder/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="doc">
+				<Option working_dir="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/doc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/doc/Makefile&quot;  VERBOSE=1 doc"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/doc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/doc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/doc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/src/fec.cpp">
+			<Option target="fec"/>
+		</Unit>
+		<Unit filename="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/src/fec.hpp">
+			<Option target="fec"/>
+		</Unit>
+		<Unit filename="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/src/fec_revision.cpp">
+			<Option target="fec"/>
+		</Unit>
+		<Unit filename="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/src/fec_revision.hpp">
+			<Option target="fec"/>
+		</Unit>
+		<Unit filename="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/src/gbt_sca_i2c.cpp">
+			<Option target="fec"/>
+		</Unit>
+		<Unit filename="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/src/gbt_sca_i2c.hpp">
+			<Option target="fec"/>
+		</Unit>
+		<Unit filename="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/src/hdlc_core.cpp">
+			<Option target="fec"/>
+		</Unit>
+		<Unit filename="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/src/hdlc_core.hpp">
+			<Option target="fec"/>
+		</Unit>
+		<Unit filename="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/src/sampa.cpp">
+			<Option target="fec"/>
+		</Unit>
+		<Unit filename="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/src/sampa.hpp">
+			<Option target="fec"/>
+		</Unit>
+		<Unit filename="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/src/sampa_raw_data_decoder.cpp">
+			<Option target="sampa_raw_data_decoder"/>
+		</Unit>
+		<Unit filename="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/src/simple_log.cpp">
+			<Option target="fec"/>
+		</Unit>
+		<Unit filename="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/src/simple_log.hpp">
+			<Option target="fec"/>
+		</Unit>
+		<Unit filename="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/src/utils.cpp">
+			<Option target="fec"/>
+		</Unit>
+		<Unit filename="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/src/utils.hpp">
+			<Option target="fec"/>
+		</Unit>
+		<Unit filename="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/contrib/FindGitInfo.cmake">
+			<Option virtualFolder="CMake Files\contrib\"/>
+		</Unit>
+		<Unit filename="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/contrib/FindUpdateBuildReadoutCardOptions.cmake">
+			<Option virtualFolder="CMake Files\contrib\"/>
+		</Unit>
+		<Unit filename="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/../../../../../../usr/local/lib/cmake/Boost-1.74.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\Boost-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/../../../../../../usr/local/lib/cmake/Boost-1.74.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\Boost-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/../../../../../../usr/local/lib/cmake/boost_headers-1.74.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/../../../../../../usr/local/lib/cmake/boost_headers-1.74.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/script/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\script\"/>
+		</Unit>
+		<Unit filename="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/script/tpc_initialize.sh.in">
+			<Option virtualFolder="CMake Files\script\"/>
+		</Unit>
+		<Unit filename="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/script/tpc_print_status.sh.in">
+			<Option virtualFolder="CMake Files\script\"/>
+		</Unit>
+		<Unit filename="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/config/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\config\"/>
+		</Unit>
+		<Unit filename="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/doc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\doc\"/>
+		</Unit>
+		<Unit filename="/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/doc/Doxyfile.in">
+			<Option virtualFolder="CMake Files\doc\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,52 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=/usr/local/Cellar/gcc/10.2.0/bin/gcc-10 -G "CodeBlocks - Unix Makefiles" /Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/Platform/Darwin-Initialize.cmake:286 (message):
+  Ignoring CMAKE_OSX_SYSROOT value:
+
+   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk
+
+  because the directory does not exist.
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeSystemSpecificInitialize.cmake:21 (include)
+  CMakeLists.txt:5 (PROJECT)
+
+
+-- The C compiler identification is AppleClang 12.0.0.12000032
+-- The CXX compiler identification is GNU 10.2.0
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc - broken
+CMake Error at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeTestCCompiler.cmake:60 (message):
+  The C compiler
+
+    "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):/usr/local/bin/gmake cmTC_1e6ea/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_1e6ea.dir/build.make CMakeFiles/cmTC_1e6ea.dir/build
+    gmake[1]: Entering directory '/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Building C object CMakeFiles/cmTC_1e6ea.dir/testCCompiler.c.o
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -mmacosx-version-min=10.15   -o CMakeFiles/cmTC_1e6ea.dir/testCCompiler.c.o   -c /Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+    Linking C executable cmTC_1e6ea
+    /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e6ea.dir/link.txt --verbose=1
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1e6ea.dir/testCCompiler.c.o  -o cmTC_1e6ea 
+    ld: library not found for -lSystem
+    clang: error: linker command failed with exit code 1 (use -v to see invocation)
+    gmake[1]: *** [CMakeFiles/cmTC_1e6ea.dir/build.make:107: cmTC_1e6ea] Error 1
+    gmake[1]: Leaving directory '/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/CMakeFiles/CMakeTmp'
+    gmake: *** [Makefile:141: cmTC_1e6ea/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:5 (PROJECT)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/CMakeFiles/CMakeError.log".

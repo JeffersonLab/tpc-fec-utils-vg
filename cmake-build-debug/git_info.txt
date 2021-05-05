@@ -1,0 +1,5 @@
+Version information
+  branch : master
+  hash   : 6ddac21
+  clean  : no
+  build  : gurjyan@vapapi.jlab.org

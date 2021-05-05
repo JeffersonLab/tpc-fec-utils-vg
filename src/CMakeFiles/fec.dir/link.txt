@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libfec.a  CMakeFiles/fec.dir/utils.o CMakeFiles/fec.dir/simple_log.o CMakeFiles/fec.dir/hdlc_core.o CMakeFiles/fec.dir/gbt_sca_i2c.o CMakeFiles/fec.dir/fec_revision.o CMakeFiles/fec.dir/sampa.o CMakeFiles/fec.dir/fec.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libfec.a

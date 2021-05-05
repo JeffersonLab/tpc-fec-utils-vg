@@ -1,0 +1,4 @@
+PROJECT_NAME           = tpc-fec-utils
+PROJECT_LOGO           = /Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/contrib/trorc_logo.png
+OUTPUT_DIRECTORY       = /Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/cmake-build-debug/doc
+INPUT                  = /Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils /Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/src /Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/src/trorc /Users/gurjyan/Devel/Ersap/sampa/tpc-fec-utils/src/cru

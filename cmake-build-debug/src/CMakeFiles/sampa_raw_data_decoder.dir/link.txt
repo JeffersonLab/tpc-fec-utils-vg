@@ -1,0 +1,1 @@
+/usr/local/Cellar/gcc/10.2.0/bin/gcc-10  -Wall -Wextra -pedantic -fPIC -g -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/sampa_raw_data_decoder.dir/sampa_raw_data_decoder.cpp.o  -o sampa_raw_data_decoder  -lboost_program_options 
