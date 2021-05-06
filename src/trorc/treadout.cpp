@@ -10,6 +10,9 @@
 #include <boost/filesystem.hpp>
 #include <csignal>
 #include <ctime>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
 
 #include "simple_log.hpp"
 #include "trorc.hpp"
@@ -388,12 +391,12 @@ public:
      * Create a TCP client to send SAMPA data to the server.
      * vg 05.2021
      */
-    int createTCPClient(String host, int port) {
+int createTCPClient(const std::string &host, int port) {
 
         // Create a socket
         int sock = socket(AF_INET, SOCK_STREAM, 0);
         if (sock == -1) {
-            cerr << "Can't create a socket port = " << port << endln;
+	  std::cerr << "Can't create a socket port = " << port << std::endl;
             return -1;
         }
 
@@ -406,7 +409,7 @@ public:
         // Connect to the server on the socket
         int connectRes = connect(sock, (sockaddr * ) & hint, sizeof(hint));
         if (connectRes == -1) {
-            cerr << "Can't connect to the socket port = " << port << endln;
+	  std::cerr << "Can't connect to the socket port = " << port << std::endl;
             return -1;
         }
         return sock;
@@ -422,7 +425,7 @@ public:
 
         Log::info("Channel " + std::to_string(channel_) + " readout thread active");
 
-        cout << "DDD " + std::to_string(channel_) + " readout thread active" << endl; //vg 05.2021
+	std::cout << "DDD " + std::to_string(channel_) + " readout thread active" << std::endl; //vg 05.2021
 
 #if not defined SIMULATION_NORORC
         librorc::EventDescriptor *report;
@@ -454,7 +457,7 @@ public:
                         // Stream data to the listening server.
                         int sendRes = send(sock, reinterpret_cast<const char *>(event), event_size, 0);
                         if (sendRes == -1) {
-                            cout << "Can't send data to server. " << endl;
+			  std::cout << "Can't send data to server. " << std::endl;
                             continue;
                         }
                     } else {
